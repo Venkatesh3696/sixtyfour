@@ -1,0 +1,15 @@
+.slick-slider {
+  height: 500px;
+  width: 1000px;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 30px;
+}
+.slick-prev {
+  opacity: 100%;
+  background-color: black;
+}
+
+.slick-list {
+  width: 100%;
+}

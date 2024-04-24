@@ -1,0 +1,23 @@
+.sidebar-container {
+  position: sticky;
+  height: 100vh;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #ffffff;
+}
+
+.sidebar-list {
+}
+
+.sidebar-list > li > button,
+.settings-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  color: #767676;
+  margin: 10px;
+}

@@ -1,0 +1,14 @@
+.header-container {
+  background-color: #272847;
+  color: #ffffff;
+}
+
+.header-list-container {
+  display: flex;
+}
+
+.header-list-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
