@@ -11,7 +11,9 @@ import "./index.css";
 const Sidebar = () => {
   return (
     <div className="sidebar-container">
-      <img alt="profile" />
+      <div className="logo-container">
+        <p>d</p>
+      </div>
       <ul className="sidebar-list">
         <li>
           <button type="button">

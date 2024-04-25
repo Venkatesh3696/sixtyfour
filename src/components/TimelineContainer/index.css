@@ -3,4 +3,31 @@
   padding: 10px;
   border-radius: 10px;
   margin: 10px;
+  max-height: 600px;
+}
+.timeline-selction-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+.timeline-selction-container > h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #5e8ed1;
+}
+.timeline-selction-container > select {
+  border: 1px solid #5e8ed1;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1rem;
+  color: #5e8ed1;
+  background-color: #fff;
+}
+.timeline-item-container {
+  overflow-y: auto;
+}
+
+.timeline-item-container::-webkit-scrollbar {
+  display: none;
 }

@@ -13,3 +13,7 @@
 .slick-list {
   width: 100%;
 }
+.slick-arrow {
+  margin-left: 30px;
+  background-color: black;
+}

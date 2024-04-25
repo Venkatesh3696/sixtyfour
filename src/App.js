@@ -12,7 +12,12 @@ class App extends Component {
     selectedCountry: "India",
   };
 
+  onChangeSelectOption = (value) => {
+    this.setState({ selectedCountry: value });
+  };
+
   render() {
+    const { selectedCountry } = this.state;
     return (
       <div className="app">
         <Sidebar />
@@ -24,10 +29,16 @@ class App extends Component {
             ))}
           </ul>
           <div className="second-container">
-            <SimpleSlider />
-            <TimelineContainer />
+            <div className="caorusel-and-more-container">
+              <SimpleSlider />
+            </div>
+            <TimelineContainer
+              selectedCountry={selectedCountry}
+              className="timeline-container"
+              onChangeSelectOption={this.onChangeSelectOption}
+            />
           </div>
-          <button className="view-more-button">View More</button>
+          <button>View More</button>
         </div>
       </div>
     );

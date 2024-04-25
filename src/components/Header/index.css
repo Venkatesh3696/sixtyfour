@@ -1,14 +1,28 @@
 .header-container {
   background-color: #272847;
   color: #ffffff;
+  height: 150px;
+  width: 100%;
+  padding: 40px;
 }
 
 .header-list-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .header-list-item-container {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.header-list-item-container-2 {
+  display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+}
+.header-icon {
+  font-size: 30px;
+  margin: 0px 10px 0px 20px;
 }

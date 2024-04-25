@@ -2,14 +2,16 @@ import { options } from "../../data";
 import Timeline from "../Timeline";
 import "./index.css";
 
-const TimelineContainer = () => {
+const TimelineContainer = ({ onChangeSelectOption, selectedCountry }) => {
+  const onChangeSelect = (e) => {
+    onChangeSelectOption(e.target.value);
+  };
   return (
     <div className="timeline-container">
-      <div>
+      <div className="timeline-selction-container">
         <h2>Recent Releases</h2>
-        <select>
+        <select value={selectedCountry} onChange={onChangeSelect}>
           {options.map((option, index) => {
-            console.log("option==>>", option);
             return (
               <option key={index} value={option}>
                 {option}
@@ -19,7 +21,7 @@ const TimelineContainer = () => {
         </select>
       </div>
       <hr />
-      <Timeline />
+      <Timeline className="timeline-item-container" />
     </div>
   );
 };

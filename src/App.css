@@ -1,37 +1,68 @@
 .app {
-  width: 100vw;
-  overflow-x: hidden;
+  max-width: 100vw;
   background-color: #fafbff;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
 }
+.app::-webkit-scrollbar {
+  display: none;
+}
 
 .main-container {
   width: 100%;
+}
+.main-container::-webkit-scrollbar {
+  display: none;
 }
 .library-cards-container {
   display: flex;
   flex-wrap: wrap;
   border-radius: 10px;
   padding: 30px;
+  position: absolute;
+  top: 70px;
 }
 
 .second-container {
   display: flex;
+  position: relative;
+  top: 130px;
+  padding: 20px;
+  width: 100%;
+  height: 600px;
 }
 
 .react-slick {
-  width: 100vw;
+  width: 100%;
 }
 
 .slick-slider {
-  width: 70%;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
   margin: 10px;
+}
+.slick-arrow {
+  background-color: black;
+  border-radius: 50%;
 }
 
 .view-more-button {
   background-color: #10183c;
   color: #ffffff;
+}
+.caorusel-and-more-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.timeline-container {
+  max-height: 100%;
+  overflow-y: auto;
 }

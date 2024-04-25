@@ -1,10 +1,12 @@
+import { BsCardHeading } from "react-icons/bs";
 import "./index.css";
 
-const LibraryCard = () => {
+const LibraryCard = ({ details }) => {
   return (
     <li className="library-card-container">
-      <p>My Saved Library 1</p>
-      <p>dd-mm-yyyy</p>
+      <BsCardHeading className="library-card-icon" />
+      <p className="library-card-text">{details.text}</p>
+      <p className="library-card-date">{details.date}</p>
     </li>
   );
 };

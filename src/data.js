@@ -1,22 +1,27 @@
 export const libraryCardsData = [
   {
     id: 1,
-    name: "My Saved Library 1",
+    text: "My Saved Library 1",
     date: "23/04/2024",
   },
   {
     id: 2,
-    name: "My Saved Library 2",
+    text: "My Saved Library 2",
     date: "23/04/2024",
   },
   {
     id: 3,
-    name: "My Saved Library 3",
+    text: "My Saved Library 3",
     date: "23/04/2024",
   },
   {
     id: 4,
-    name: "My Saved Library 4",
+    text: "My Saved Library 4",
+    date: "23/04/2024",
+  },
+  {
+    id: 5,
+    text: "My Saved Library 5",
     date: "23/04/2024",
   },
 ];
@@ -89,3 +94,21 @@ export const carouselData = [
 ];
 
 export const options = ["India", "United States", "England"];
+
+export const timelineData = [
+  {
+    cardTitle: "February 12 2024",
+    cardSubtitle: "Industrial Production",
+    cardDetailedText: `Index of Industrial production (IIP) grew by 3.8% YoY in december, as compared to a  5.1% YoY growth in the same month last year. Elecrricity has seen the slowest growth of 1.2 % YoY in December as compared to 10.4% YoY growth in the same month last year `,
+  },
+  {
+    cardTitle: "February 12 2024",
+    cardSubtitle: "Industrial Production",
+    cardDetailedText: `Index of Industrial production (IIP) grew by 3.8% YoY in december, as compared to a  5.1% YoY growth in the same month last year. Elecrricity has seen the slowest growth of 1.2 % YoY in December as compared to 10.4% YoY growth in the same month last year `,
+  },
+  {
+    cardTitle: "February 12 2024",
+    cardSubtitle: "Industrial Production",
+    cardDetailedText: `Index of Industrial production (IIP) grew by 3.8% YoY in december, as compared to a  5.1% YoY growth in the same month last year. Elecrricity has seen the slowest growth of 1.2 % YoY in December as compared to 10.4% YoY growth in the same month last year `,
+  },
+];
