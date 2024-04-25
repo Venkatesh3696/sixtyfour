@@ -4,11 +4,13 @@
   height: 150px;
   width: 100%;
   padding: 40px;
+  display: block;
 }
 
 .header-list-container {
   display: flex;
   justify-content: space-between;
+  padding-left: 40px;
 }
 
 .header-list-item-container {

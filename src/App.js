@@ -23,22 +23,24 @@ class App extends Component {
         <Sidebar />
         <div className="main-container">
           <Header />
-          <ul className="library-cards-container">
-            {libraryCardsData.map((eachItem) => (
-              <LibraryCard key={eachItem.id} details={eachItem} />
-            ))}
-          </ul>
-          <div className="second-container">
-            <div className="caorusel-and-more-container">
-              <SimpleSlider />
-            </div>
-            <TimelineContainer
-              selectedCountry={selectedCountry}
-              className="timeline-container"
-              onChangeSelectOption={this.onChangeSelectOption}
-            />
+        </div>
+        <ul className="library-cards-container">
+          {libraryCardsData.map((eachItem) => (
+            <LibraryCard key={eachItem.id} details={eachItem} />
+          ))}
+        </ul>
+        <div className="second-container">
+          <div className="caorusel-and-more-container">
+            <SimpleSlider />
+            <button type="button" className="view-more-button">
+              View More
+            </button>
           </div>
-          <button>View More</button>
+          <TimelineContainer
+            selectedCountry={selectedCountry}
+            className="timeline-container"
+            onChangeSelectOption={this.onChangeSelectOption}
+          />
         </div>
       </div>
     );

@@ -38,7 +38,7 @@ export const carouselData = [
   {
     id: 2,
     imageUrl:
-      "https://res.cloudinary.com/dgcysjarm/image/upload/v1713986911/image1_qaeayo.jpg",
+      "https://res.cloudinary.com/dgcysjarm/image/upload/v1714023201/download_p9m6v7.jpg",
     heading: "State of Markets",
     description:
       "The Market Captilization of indian stocks crossed US$4.5 trillion in january",
@@ -46,7 +46,7 @@ export const carouselData = [
   {
     id: 3,
     imageUrl:
-      "https://res.cloudinary.com/dgcysjarm/image/upload/v1713986911/image1_qaeayo.jpg",
+      "https://res.cloudinary.com/dgcysjarm/image/upload/v1714023201/images_bksniw.jpg",
     heading: "State of Markets",
     description:
       "The Market Captilization of indian stocks crossed US$4.5 trillion in january",
@@ -54,7 +54,7 @@ export const carouselData = [
   {
     id: 4,
     imageUrl:
-      "https://res.cloudinary.com/dgcysjarm/image/upload/v1713986911/image1_qaeayo.jpg",
+      "https://res.cloudinary.com/dgcysjarm/image/upload/v1714023201/download_1_evvp1b.jpg",
     heading: "State of Markets",
     description:
       "The Market Captilization of indian stocks crossed US$4.5 trillion in january",
@@ -62,7 +62,7 @@ export const carouselData = [
   {
     id: 5,
     imageUrl:
-      "https://res.cloudinary.com/dgcysjarm/image/upload/v1713986911/image1_qaeayo.jpg",
+      "https://res.cloudinary.com/dgcysjarm/image/upload/v1714023418/images_ufn3ap.jpg",
     heading: "State of Markets",
     description:
       "The Market Captilization of indian stocks crossed US$4.5 trillion in january",
@@ -70,7 +70,7 @@ export const carouselData = [
   {
     id: 6,
     imageUrl:
-      "https://res.cloudinary.com/dgcysjarm/image/upload/v1713986911/image1_qaeayo.jpg",
+      "https://res.cloudinary.com/dgcysjarm/image/upload/v1714023418/images_3_il5bx8.jpg",
     heading: "State of Markets",
     description:
       "The Market Captilization of indian stocks crossed US$4.5 trillion in january",
@@ -78,7 +78,7 @@ export const carouselData = [
   {
     id: 7,
     imageUrl:
-      "https://res.cloudinary.com/dgcysjarm/image/upload/v1713986911/image1_qaeayo.jpg",
+      "https://res.cloudinary.com/dgcysjarm/image/upload/v1714023418/images_1_sox3cw.jpg",
     heading: "State of Markets",
     description:
       "The Market Captilization of indian stocks crossed US$4.5 trillion in january",
@@ -86,7 +86,7 @@ export const carouselData = [
   {
     id: 8,
     imageUrl:
-      "https://res.cloudinary.com/dgcysjarm/image/upload/v1713986911/image1_qaeayo.jpg",
+      "https://res.cloudinary.com/dgcysjarm/image/upload/v1714023418/images_2_ombecm.jpg",
     heading: "State of Markets",
     description:
       "The Market Captilization of indian stocks crossed US$4.5 trillion in january",

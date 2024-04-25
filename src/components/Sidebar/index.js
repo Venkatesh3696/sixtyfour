@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { IoMdSettings, IoMdSearch } from "react-icons/io";
 import { MdHeadphones } from "react-icons/md";
 import { HiMiniComputerDesktop } from "react-icons/hi2";
@@ -8,54 +8,55 @@ import { BiSolidBuildings } from "react-icons/bi";
 import { HiCurrencyDollar } from "react-icons/hi2";
 import "./index.css";
 
-const Sidebar = () => {
+function Sidebar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const buttonText = isOpen ? "<" : ">";
   return (
-    <div className="sidebar-container">
+    <div className={`sidebar ${isOpen ? "open" : "closed"}`}>
+      <button className="open-button" onClick={() => setIsOpen(!isOpen)}>
+        {buttonText}
+      </button>
+
       <div className="logo-container">
         <p>d</p>
       </div>
       <ul className="sidebar-list">
         <li>
-          <button type="button">
-            <IoMdSearch className="sidebar-icons" />
-          </button>
+          <IoMdSearch className="sidebar-icons" />
+          <p className="open-bar-text">Search</p>
         </li>
         <li>
-          <button type="button">
-            <HiMiniComputerDesktop className="sidebar-icons" />
-          </button>
+          <HiMiniComputerDesktop className="sidebar-icons" />
+          <p className="open-bar-text">Browse</p>
         </li>
         <li>
-          <button type="button">
-            <FaRegCircleQuestion className="sidebar-icons" />
-          </button>
+          <FaRegCircleQuestion className="sidebar-icons" />
+          <p className="open-bar-text">Help</p>
         </li>
         <li>
-          <button type="button">
-            <IoMdCalendar className="sidebar-icons" />
-          </button>
+          <IoMdCalendar className="sidebar-icons" />
+          <p className="open-bar-text">date</p>
         </li>
         <li>
-          <button type="button">
-            <BiSolidBuildings className="sidebar-icons" />
-          </button>
+          <BiSolidBuildings className="sidebar-icons" />
+          <p className="open-bar-text">Office</p>
         </li>
         <li>
-          <button type="button">
-            <HiCurrencyDollar className="sidebar-icons" />
-          </button>
+          <HiCurrencyDollar className="sidebar-icons" />
+          <p className="open-bar-text">Pricing</p>
         </li>
         <li>
-          <button type="button">
-            <MdHeadphones className="sidebar-icons" />
-          </button>
+          <MdHeadphones className="sidebar-icons" />
+          <p className="open-bar-text">Audio</p>
         </li>
       </ul>
-      <button className="settings-button">
+      <button className="settings-button sidebar-icons">
         <IoMdSettings />
+        <p className="open-bar-text">Settings</p>
       </button>
     </div>
   );
-};
+}
 
 export default Sidebar;
